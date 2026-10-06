@@ -172,14 +172,13 @@ source ~/.palace01/bin/activate
 
 ### Step 3 – Update the Moxon.xls File
 
-Open the provided `Moxon.xls` template and enter the desired parameter combinations. The Moxon antenna parameters used by the script are shown in Fig. 1. You may enter as many combinations as desired. Be sure to assign a unique index number to each combination.
+Open the provided `Moxon.xls` template and enter the desired parameter combinations. The Moxon antenna parameters used by the script are shown in Fig. 1. You may enter as many combinations as desired. Be sure to assign a unique index number to each combination. After entering the parameters, save the file.
 
 <figure>
   <img src="Moxon_model.svg" alt="Moxon_model">
   <figcaption><b>Figure 1:</b> Aluminum-tube Moxon antenna model showing the simulation parameters.</figcaption>
 </figure>
 
-After entering the parameters, save the file.
 
 ### Step 4 – Generate the Antenna Model and Mesh
 
