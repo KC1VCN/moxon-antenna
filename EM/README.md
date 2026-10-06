@@ -1,9 +1,9 @@
 # 10-Meter Band Moxon Antenna
 
+## Full-wave Electromagnetic Simulations
+
 This section explains the full-wave electromagnetic simulation of the 10-meter Moxon antenna using `Palace` (Parallel Large-scale Computational Electromagnetics), a finite-element-method (FEM) simulator. Palace has been developed by the Amazon Web Services (AWS) Center for Quantum Computing (https://awslabs.github.io/palace/stable/). It is an open-source software licensed under Apache-2.0 and may be used for both non-commercial and commercial applications.
 
-
-## Full-wave Electromagnetic Simulations
 
 The full-wave electromagnetic simulation of the Moxon antenna using `Palace` consists of two distinct steps: mesh generation and FEM simulation using the generated mesh. Python scripts are provided to simplify each task. The name and description of each script are given in the following table:
 
