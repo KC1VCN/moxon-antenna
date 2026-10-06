@@ -176,7 +176,7 @@ Open the provided `Moxon.xls` template and enter the desired parameter combinati
 
 <figure>
   <img src="Moxon_model.svg" alt="Moxon_model">
-  <figcaption>Figure 1: Aluminum-tube Moxon antenna model showing the simulation parameters.</figcaption>
+  <figcaption><b>Figure 1:</b> Aluminum-tube Moxon antenna model showing the simulation parameters.</figcaption>
 </figure>
 
 After entering the parameters, save the file.
