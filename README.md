@@ -219,7 +219,7 @@ The measured return loss (*S*<sub>11</sub>) of the antenna is shown in Fig. 11. 
   <figcaption><b>Figure 11:</b> Measured S<sub>11</sub> of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
-The return loss of the antenna is excellent between 28.3 and 28.5 MHz, which is the portion of the 10-meter band reserved for amateur SSB communications in the U.S. If desired, the return-loss minimum can be shifted to another portion of the band by re-optimizing the dimensions. Note that, although the return loss is relatively broadband across the band, the front-to-back ratio is more sensitive to operating frequency.
+The return loss of the antenna is excellent between 28.3 and 28.5 MHz, which is the portion of the 10-meter band reserved for technician-class SSB phone communications in the U.S. If desired, the return-loss minimum can be shifted to another portion of the band by re-optimizing the dimensions. Note that, although the return loss is relatively broadband across the band, the front-to-back ratio is more sensitive to operating frequency.
 
 A comparison of the simulated and measured antenna responses is shown in Fig. 12. As can be seen from the plots, the measurement and simulation agree relatively well. The discrepancy around the *S*<sub>11</sub> dip can be attributed to the effects of the balun and feed structure.
 
