@@ -25,14 +25,14 @@ In this section, the construction of the antenna is described. Throughout the te
 A picture of the antenna is shown in Fig. 1. The antenna is constructed using telescoping aluminum tubes (*a*1, *a*2, *b*1&ndash;*b*4). The low weight and oxidation resistance of aluminum make it an ideal material for HF antenna construction. The driven (*a*1, *b*1, *b*3) and parasitic (*a*2, *b*2, *b*4) elements are held together by a boom made from a square aluminum tube (*c*).
 
 <figure>
-  <img src="Moxon_antenna.svg" alt="moxon_antenna">
+  <img src="images/Moxon_antenna.svg" alt="moxon_antenna">
   <figcaption><b>Figure 1:</b> 10-meter Moxon antenna.</figcaption>
 </figure>
 
 The dimensions of the constructed antenna are given in Fig. 2. The starting point of the design is the example given in *The ARRL Antenna Book*, 25th Edition, page 13-32. Because the diameters and lengths of the aluminum tubes used here differ from those in the published example, the antenna dimensions were adjusted using a full-wave simulator to obtain acceptable return loss and front-to-back far-field ratio in the 10-meter band.
 
 <figure>
-  <img src="Moxon_dimensions.svg" alt="moxon_dimensions">
+  <img src="images/Moxon_dimensions.svg" alt="moxon_dimensions">
   <figcaption><b>Figure 2:</b> 10-meter Moxon antenna dimensions.</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ In the following paragraphs, the construction steps are explained in greater det
 This assembly is where the left and right driven elements are connected to the balun terminals and clamped to the boom. Pictures of the antenna feed section are given in Figs. 3 (with balun) and 4 (close-up).
 
 <figure>
-  <img src="Moxon_feed1.svg" alt="moxonfeed1">
+  <img src="images/Moxon_feed1.svg" alt="moxonfeed1">
   <figcaption><b>Figure 3:</b> Detailed view of the antenna feed (with balun).</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ The balun plate (*g*) is first attached to the boom using another bracket (*j*) 
 A 50" long fiberglass stiffener rod (*m*) is inserted inside the larger aluminum tubes from one of the open ends. This stiffener is placed only inside the larger tubes and does not extend into the smaller end tubes. Its purpose is to provide additional mechanical rigidity and damp mechanical oscillations that may occur under wind loading. The rod should be centered to leave sufficient room for the smaller-diameter tubes to slide inside the larger-diameter tubes.
 
 <figure>
-  <img src="Moxon_feed2.svg" alt="moxon_feed2">
+  <img src="images/Moxon_feed2.svg" alt="moxon_feed2">
   <figcaption><b>Figure 4:</b> Detailed view of the antenna feed (close-up).</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ The input UHF connector of the balun should be weatherized using self-fusing sil
 This assembly is where the parasitic element is clamped to the boom. A picture of the parasitic-element support is shown in Fig. 5.
 
 <figure>
-  <img src="Moxon_parasitic.svg" alt="moxon_parasitic">
+  <img src="images/Moxon_parasitic.svg" alt="moxon_parasitic">
   <figcaption><b>Figure 5:</b> Parasitic element support.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ A polyethylene square plug (*w*) is placed at both ends of the boom to seal the 
 This assembly is where the larger-diameter tubes are connected to the smaller-diameter tubes. A picture of the tube connections is shown in Fig. 6.
 
 <figure>
-  <img src="Moxon_tube.svg" alt="moxon_tube">
+  <img src="images/Moxon_tube.svg" alt="moxon_tube">
   <figcaption><b>Figure 6:</b> Tube connections.</figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ Stainless-steel hose clamps (*y*) are used to compress tubes (*a*) over the slit
 Tube-end spacers are used to keep the ends of the tubes at a precise distance from each other. They also stabilize the antenna rectangle. A picture of the tube-end spacers is shown in Fig. 7.
 
 <figure>
-  <img src="Moxon_coupling.svg" alt="moxon_coupling">
+  <img src="images/Moxon_coupling.svg" alt="moxon_coupling">
   <figcaption><b>Figure 7:</b> Tube-end spacers.</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ The ends of the tubes (*b*) should be drilled 1.5" from the edge using a 9/64" d
 It is useful to perform full-wave electromagnetic simulations of the antenna structure before assembling the physical antenna. For this purpose, an open-source 3D finite-element solver called Palace (Parallel Large-scale Computational Electromagnetics) was used (https://awslabs.github.io/palace/stable/). Palace has been developed by the Amazon Web Services (AWS) Center for Quantum Computing. The simulation software was installed on a virtual machine (VM) using Microsoft Azure Cloud Computing Services. The simulations were performed on an E4_v4 virtual machine with 4 vCPUs and 32 GB of RAM. One advantage of cloud computing is that the available compute resources, such as RAM and CPU cores, can be scaled according to model complexity.
 
 <figure>
-  <img src="Moxon_model.svg" alt="moxon_model">
+  <img src="images/Moxon_model.svg" alt="moxon_model">
   <figcaption><b>Figure 8:</b> Aluminum-tube Moxon antenna model showing the simulation parameters.</figcaption>
 </figure>
 
@@ -199,12 +199,12 @@ It is useful to perform full-wave electromagnetic simulations of the antenna str
 The antenna geometry is generated programmatically using a Python script. The script reads the main antenna parameters (*A*1, *A*2, *B*, *C*, *D*) from an Excel worksheet and generates the corresponding mesh files. The mesh files are then used as input to the Palace simulator. The benefit of using a worksheet is that multiple geometry variations can be listed, allowing a simulation to be submitted simply by specifying a row index and thereby enabling automation. The antenna dimensions were optimized to provide good return loss and front-to-back (F/B) far-field ratio over the desired frequency band.
 
 <figure>
-  <img src="Moxon_simulation_S11.png" alt="moxon_simulation_S11">
+  <img src="images/Moxon_simulation_S11.png" alt="moxon_simulation_S11">
   <figcaption><b>Figure 9:</b> Simulated S<sub>11</sub> of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
 <figure>
-  <img src="Moxon_simulation_farfield.png" alt="moxon_simulation_farfield">
+  <img src="images/Moxon_simulation_farfield.png" alt="moxon_simulation_farfield">
   <figcaption><b>Figure 10:</b> Simulated normalized far-field of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
@@ -215,7 +215,7 @@ The antenna geometry is generated programmatically using a Python script. The sc
 The measured return loss (*S*<sub>11</sub>) of the antenna is shown in Fig. 11. The measurements were made using a network analyzer while the antenna was mounted approximately 23 feet above ground on a fiberglass push-up pole. The measurement setup was located at the bottom of the pole. Therefore, the results include the effects of the connecting RG-8X coaxial cable, RF connectors, and the 1:1 balun. A more accurate characterization of the antenna itself could be obtained if the balun were characterized and tuned separately; however, time and resource limitations did not allow this.
 
 <figure>
-  <img src="Moxon_measurement1.png" alt="moxon_measurement1">
+  <img src="images/Moxon_measurement1.png" alt="moxon_measurement1">
   <figcaption><b>Figure 11:</b> Measured S<sub>11</sub> of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
@@ -224,12 +224,12 @@ The return loss of the antenna is excellent between 28.3 and 28.5 MHz, which is 
 A comparison of the simulated and measured antenna responses is shown in Figs. 12 and 13. As can be seen from the plots, the measurement and simulation agree relatively well. The discrepancy around the *S*<sub>11</sub> dip can be attributed to the effects of the balun and feed structure.
 
 <figure>
-  <img src="Moxon_measurement2.png" alt="moxon_measurement2">
+  <img src="images/Moxon_measurement2.png" alt="moxon_measurement2">
   <figcaption><b>Figure 12:</b> Simulation vs. measurement (S<sub>11</sub>) of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
 <figure>
-  <img src="Moxon_measurement3.png" alt="moxon_measurement3">
+  <img src="images/Moxon_measurement3.png" alt="moxon_measurement3">
   <figcaption><b>Figure 13:</b> Simulation vs. measurement (SWR) of the 10-meter Moxon antenna.</figcaption>
 </figure>
 
