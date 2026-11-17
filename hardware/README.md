@@ -12,47 +12,44 @@ Images of the completed parts are provided below to illustrate their expected ap
 
 Unless otherwise noted, dimensions and geometry should be taken from the `FreeCAD` source files.
 
----
-
 <figure>
   <img src="tube_clamp.png" alt="tube_clamp">
-  <figcaption>Tube clamp (e)</figcaption>
+  <figcaption>Figure 1: Tube clamp (e)</figcaption>
 </figure>
-
----
+<br>
+<br>
 
 <figure>
   <img src="tube_mount.png" alt="tube_mount">
-  <figcaption>Tube mounting plate (f)</figcaption>
+  <figcaption>Figure 2: Tube mounting plate (f)</figcaption>
 </figure>
-
----
+<br>
+<br>
 
 <figure>
   <img src="tube_terminal.png" alt="tube_terminal">
-  <figcaption>Tube and Balun terminals (k, l)</figcaption>
+  <figcaption>Figure 3: Tube and Balun terminals (k, l)</figcaption>
 </figure>
-
----
+<br>
+<br>
 
 <figure>
   <img src="clamp_plate.png" alt="clamp_plate">
-  <figcaption>Clamp plate (d)</figcaption>
+  <figcaption>Figure 4: Clamp plate (d)</figcaption>
 </figure>
-
----
+<br>
+<br>
 
 <figure>
   <img src="boom_clamp.png" alt="boom_clamp">
-  <figcaption>Boom clamp (j)</figcaption>
+  <figcaption>Figure 5: Boom clamp (j)</figcaption>
 </figure>
-
----
+<br>
+<br>
 
 <figure>
   <img src="balun_mount.png" alt="balun_mount">
-  <figcaption>Balun mounting plate (g)</figcaption>
+  <figcaption>Figure 6: Balun mounting plate (g)</figcaption>
 </figure>
-
----
-
+<br>
+<br>
