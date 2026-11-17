@@ -14,42 +14,42 @@ Unless otherwise noted, dimensions and geometry should be taken from the `FreeCA
 
 <figure>
   <img src="tube_clamp.png" alt="tube_clamp">
-  <figcaption>Figure 1: Tube clamp (e)</figcaption>
+  <figcaption><b>Figure 1:</b> Tube clamp (e)</figcaption>
 </figure>
 <br>
 <br>
 
 <figure>
   <img src="tube_mount.png" alt="tube_mount">
-  <figcaption>Figure 2: Tube mounting plate (f)</figcaption>
+  <figcaption><b>Figure 2:</b> Tube mounting plate (f)</figcaption>
 </figure>
 <br>
 <br>
 
 <figure>
   <img src="tube_terminal.png" alt="tube_terminal">
-  <figcaption>Figure 3: Tube and Balun terminals (k, l)</figcaption>
+  <figcaption><b>Figure 3:</b> Tube and Balun terminals (k, l)</figcaption>
 </figure>
 <br>
 <br>
 
 <figure>
   <img src="clamp_plate.png" alt="clamp_plate">
-  <figcaption>Figure 4: Clamp plate (d)</figcaption>
+  <figcaption><b>Figure 4:</b> Clamp plate (d)</figcaption>
 </figure>
 <br>
 <br>
 
 <figure>
   <img src="boom_clamp.png" alt="boom_clamp">
-  <figcaption>Figure 5: Boom clamp (j)</figcaption>
+  <figcaption><b>Figure 5:</b> Boom clamp (j)</figcaption>
 </figure>
 <br>
 <br>
 
 <figure>
   <img src="balun_mount.png" alt="balun_mount">
-  <figcaption>Figure 6: Balun mounting plate (g)</figcaption>
+  <figcaption><b>Figure 6:</b> Balun mounting plate (g)</figcaption>
 </figure>
 <br>
 <br>
